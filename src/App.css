@@ -424,13 +424,13 @@ a {
   /* Purple/60 */
   background: rgb(112, 59, 247);
   color: rgb(255, 255, 255);
-font-size: 18px;
-font-weight: 500;
-line-height: 150%;
-letter-spacing: 0%;
-text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
 }
-.estate{
+.estate {
   max-width: 1596px;
   margin: auto;
   margin-bottom: 150px;
@@ -462,16 +462,15 @@ text-align: left;
   display: flex;
   justify-content: space-between;
   color: aliceblue;
-    max-width: 1596px;
+  max-width: 1596px;
   margin: auto;
-  
 }
 
-.email input{
-    background: rgb(20, 20, 20);
-    outline: none;
-    border: none;
-    color: aliceblue;
+.email input {
+  background: rgb(20, 20, 20);
+  outline: none;
+  border: none;
+  color: aliceblue;
 }
 .email {
   display: flex;
@@ -479,35 +478,35 @@ text-align: left;
   gap: 14px;
   align-items: center;
   box-sizing: border-box;
-/* Grey/15 */
-border: 1px solid rgb(38, 38, 38);
-border-radius: 12px;
-margin-top: 15px;
-/* Grey/08 */
-background: rgb(20, 20, 20);
+  /* Grey/15 */
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 12px;
+  margin-top: 15px;
+  /* Grey/08 */
+  background: rgb(20, 20, 20);
 }
-.section p{
+.section p {
   color: rgb(153, 153, 153);
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: -0.6%;
-text-align: left;
-margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.6%;
+  text-align: left;
+  margin-bottom: 30px;
 }
-.section li{
+.section li {
   margin-bottom: 20px;
 }
-.end{
-   max-width: 1596px;
+.end {
+  max-width: 1596px;
   margin: auto;
   /* Grey/10 */
-background: rgb(25, 25, 25);
-color: aliceblue;
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-top: 20px;
+  background: rgb(25, 25, 25);
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -526,7 +525,7 @@ margin-top: 20px;
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background:transparent;
+  background: transparent;
 }
 .about-main {
   max-width: 1596px;
@@ -546,4 +545,5 @@ margin-top: 20px;
 .about-card {
 }
 .about-right {
+  margin-top: 10px;
 }
