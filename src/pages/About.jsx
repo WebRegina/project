@@ -30,6 +30,7 @@ function About() {
         </div>
         <div className="about-right">
           <img src="imgs/about-main.svg" alt="" />
+          <p></p>
         </div>
       </div>
     </>
