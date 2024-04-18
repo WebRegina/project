@@ -1,5 +1,10 @@
 import React from "react";
-
+// import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
 function About() {
   return (
     <>
@@ -209,6 +214,204 @@ function About() {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="team container">
+        <div className="team-top">
+          <h2>Meet the Estatein Team</h2>
+          <p>
+            At Estatein, our success is driven by the dedication and expertise
+            of our team. Get to know the people behind our mission to make your
+            real estate dreams a reality.
+          </p>
+        </div>
+        <div className="team-bottom">
+          <div className="bio">
+            <div className="image-box">
+              <img src="imgs/1.png" alt="" />
+              <img className="box-img" src="imgs/btn.png" alt="" />
+            </div>
+            <h4>Max Mitchell</h4>
+            <p>Founder</p>
+            <div className="button-box">
+              <h5>Say Hello </h5>
+              <img src="imgs/sender.png" alt="" />
+            </div>
+          </div>
+          <div className="bio">
+            <div className="image-box">
+              <img src="imgs/2.png" alt="" />
+              <img className="box-img" src="imgs/btn.png" alt="" />
+            </div>
+            <h4>Sarah Johnson</h4>
+            <p>Chief Real Estate Officer</p>
+            <div className="button-box">
+              <h5>Say Hello 👋</h5>
+              <img src="imgs/sender.png" alt="" />
+            </div>
+          </div>
+          <div className="bio">
+            <div className="image-box">
+              <img src="imgs/3.png" alt="" />
+              <img className="box-img" src="imgs/btn.png" alt="" />
+            </div>
+            <h4>David Brown</h4>
+            <p>Head of Property Management</p>
+            <div className="button-box">
+              <h5>Say Hello 👋</h5>
+              <img src="imgs/sender.png" alt="" />
+            </div>
+          </div>
+          <div className="bio">
+            <div className="image-box">
+              <img src="imgs/4.png" alt="" />
+              <img className="box-img" src="imgs/btn.png" alt="" />
+            </div>
+            <h4>Michael Turner</h4>
+            <p>Legal Counsel</p>
+            <div className="button-box">
+              <h5>Say Hello 👋</h5>
+              <img src="imgs/sender.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="clients container">
+        <div className="clients-top">
+          <h2>Our Valued Clients</h2>
+          <p>
+            At Estatein, we have had the privilege of working with a diverse
+            range of clients across various industries. Here are some of the
+            clients we've had the pleasure of serving
+          </p>
+        </div>
+        <div className="clients-bottom">
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={50}
+            pagination={{
+              dynamicBullets: true,
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="clients-card">
+                <div className="clients-card-top">
+                  <div className="top-left">
+                    <p>Since 2019</p>
+                    <h3>ABC Corporation</h3>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div className="clients-card-center">
+                  <div className="center-left">
+                    <h5>Domain</h5>
+                    <h3>Commercial Real Estate</h3>
+                  </div>
+                  <div className="center-right">
+                    <h5>Category</h5>
+                    <h3>Luxury Home Development</h3>
+                  </div>
+                </div>
+                <div className="clients-card-bottom">
+                  <h6>What They Said 🤗</h6>
+                  <p>
+                    Estatein's expertise in finding the perfect office space for
+                    our expanding operations was invaluable. They truly
+                    understand our business needs.
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="clients-card">
+                <div className="clients-card-top">
+                  <div className="top-left">
+                    <p>Since 2018</p>
+                    <h3>GreenTech Enterprises</h3>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div className="clients-card-center">
+                  <div className="center-left">
+                    <h5>Domain</h5>
+                    <h3>Commercial Real Estate</h3>
+                  </div>
+                  <div className="center-right">
+                    <h5>Category</h5>
+                    <h3>Luxury Home Development</h3>
+                  </div>
+                </div>
+                <div className="clients-card-bottom">
+                  <h6>What They Said 🤗</h6>
+                  <p>
+                    Estatein's ability to identify prime retail locations helped
+                    us expand our brand presence. They are a trusted partner in
+                    our growth.
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="clients-card">
+                <div className="clients-card-top">
+                  <div className="top-left">
+                    <p>Since 2019</p>
+                    <h3>ABC Corporation</h3>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div className="clients-card-center">
+                  <div className="center-left">
+                    <h5>Domain</h5>
+                    <h3>Commercial Real Estate</h3>
+                  </div>
+                  <div className="center-right">
+                    <h5>Category</h5>
+                    <h3>Luxury Home Development</h3>
+                  </div>
+                </div>
+                <div className="clients-card-bottom">
+                  <h6>What They Said 🤗</h6>
+                  <p>
+                    Estatein's expertise in finding the perfect office space for
+                    our expanding operations was invaluable. They truly
+                    understand our business needs.
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="clients-card">
+                <div className="clients-card-top">
+                  <div className="top-left">
+                    <p>Since 2018</p>
+                    <h3>GreenTech Enterprises</h3>
+                  </div>
+                  <button>Visit Website</button>
+                </div>
+                <div className="clients-card-center">
+                  <div className="center-left">
+                    <h5>Domain</h5>
+                    <h3>Commercial Real Estate</h3>
+                  </div>
+                  <div className="center-right">
+                    <h5>Category</h5>
+                    <h3>Luxury Home Development</h3>
+                  </div>
+                </div>
+                <div className="clients-card-bottom">
+                  <h6>What They Said 🤗</h6>
+                  <p>
+                    Estatein's ability to identify prime retail locations helped
+                    us expand our brand presence. They are a trusted partner in
+                    our growth.
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </>

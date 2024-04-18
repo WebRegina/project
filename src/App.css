@@ -7,6 +7,10 @@
   list-style: none;
   text-decoration: none;
 }
+.container {
+  max-width: 1596px;
+  margin: auto;
+}
 header {
   max-width: 1596px;
   margin: auto;
@@ -748,27 +752,270 @@ a {
   max-width: 512px;
   box-sizing: border-box;
   border-left: 1px solid rgb(38, 38, 38);
+  margin-top: 50px;
 }
-.step {
-  padding: 10px 50px;
+
+.step h3 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
   box-sizing: border-box;
-  /* Purple/60 */
-  border: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(112, 59, 247, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  border-left: 1px solid rgba(112, 59, 247, 0.345);
+  padding: 16px 26px;
 }
 .card-info {
   padding: 50px;
   box-sizing: border-box;
   border: 1px solid rgb(38, 38, 38);
   border-radius: 0px 12px 12px 12px;
-
+  border-left: 1px solid rgba(112, 59, 247, 0.345);
+  border-top: 1px solid rgba(112, 59, 247, 0.375);
   background: linear-gradient(
     156.17deg,
     rgb(112, 59, 247) -49.397%,
     rgba(112, 59, 247, 0) 13.589%
   );
+}
+.card-info h2 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-info p {
+  color: rgb(153, 153, 153);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 16px;
+}
+
+.team-top {
+  max-width: 1030px;
+  padding-bottom: 60px;
+}
+.team-top h2 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.team-top p {
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.team-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.bio {
+  box-sizing: border-box;
+  /* Grey/15 */
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 12px;
+  padding: 30px;
+}
+.bio h4 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 50px;
+}
+.bio p {
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 6px;
+}
+.image-box {
+  position: relative;
+}
+.box-img {
+  position: absolute;
+  top: 205px;
+  right: 105px;
+}
+.button-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+
+  box-sizing: border-box;
+  /* Grey/15 */
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 100px;
+
+  /* Grey/10 */
+  background: rgb(26, 26, 26);
+  margin-top: 24px;
+}
+.button-box h5 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.clients {
+  padding-top: 150px;
+}
+
+.clients-top {
+  max-width: 1297px;
+  padding-bottom: 80px;
+}
+.clients-top h2 {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 14px;
+}
+.clients-top p {
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.clients-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.clients-card {
+  max-width: 773px;
+  box-sizing: border-box;
+  /* Grey/15 */
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 12px;
+
+  box-shadow: 0px 0px 0px 8px rgb(25, 25, 25);
+  /* Grey/08 */
+  background: rgb(20, 20, 20);
+  padding: 50px;
+  max-width: 773px;
+}
+.clients-card-top {
+  display: flex;
+  justify-content: space-between;
+ padding-bottom: 40px;
+}
+.clients-card-top button{
+  box-sizing: border-box;
+/* Grey/15 */
+border: 1px solid rgb(38, 38, 38);
+border-radius: 10px;
+
+/* Grey/10 */
+background: rgb(26, 26, 26);
+color: rgb(255, 255, 255);
+font-family: Urbanist;
+font-size: 18px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+padding: 2px 20px;
+}
+.top-left {
+}
+.top-left p{
+  color: rgb(153, 153, 153);
+font-family: Urbanist;
+font-size: 18px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.top-left h3{
+  color: rgb(255, 255, 255);
+font-family: Urbanist;
+font-size: 30px;
+font-weight: 600;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.clients-card-center {
+  display: flex;
+  justify-content: space-between;
+}
+.center-left, .center-right h5{
+  color: rgb(153, 153, 153);
+font-family: Urbanist;
+font-size: 18px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.center-left, .center-right h3{
+  color: rgb(255, 255, 255);
+font-family: Urbanist;
+font-size: 16px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.center-right {
+}
+.clients-card-bottom {
+  box-sizing: border-box;
+/* Grey/15 */
+border: 1px solid rgb(38, 38, 38);
+border-radius: 12px;
+padding: 25px;
+margin-top: 40px;
+}
+.clients-card-bottom  h6{
+  color: rgb(153, 153, 153);
+font-family: Urbanist;
+font-size: 18px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.clients-card-bottom p{
+  color: rgb(255, 255, 255);
+font-family: Urbanist;
+font-size: 18px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
 }
