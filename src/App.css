@@ -883,13 +883,14 @@ a {
   letter-spacing: 0%;
   text-align: left;
 }
-.clients {
+/* .clients {
   padding-top: 150px;
-}
+} */
 
 .clients-top {
   max-width: 1297px;
   padding-bottom: 80px;
+  padding-top: 100px;
 }
 .clients-top h2 {
   color: rgb(255, 255, 255);
@@ -913,6 +914,7 @@ a {
 .clients-bottom {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .clients-card {
   max-width: 773px;
@@ -1000,6 +1002,7 @@ border: 1px solid rgb(38, 38, 38);
 border-radius: 12px;
 padding: 25px;
 margin-top: 40px;
+
 }
 .clients-card-bottom  h6{
   color: rgb(153, 153, 153);

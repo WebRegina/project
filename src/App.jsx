@@ -8,6 +8,7 @@ import About from "./pages/About";
 
 import Footer from "./components/Footer";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
+import Properties from "./pages/Properties";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <Header />
         <Routes>
           <Route index path="/" element={<Home />} />
-          <Route path="/about" element={<About/>} />          
+          <Route path="/about" element={<About />} />
+          <Route path="/properties" element={<Properties/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -21,7 +21,9 @@ function Header() {
             <li>
               <Link to={"/about"}>About Us</Link>
             </li>
-            <li>Properties</li>
+            <li>
+              <Link to={"/properties"}> Properties</Link>
+            </li>
             <li>Services </li>
           </ul>
           <button>Contact Us</button>

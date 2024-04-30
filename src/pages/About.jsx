@@ -287,7 +287,7 @@ function About() {
         </div>
         <div className="clients-bottom">
           <Swiper
-            slidesPerView={1}
+            slidesPerView={2}
             spaceBetween={50}
             pagination={{
               dynamicBullets: true,
